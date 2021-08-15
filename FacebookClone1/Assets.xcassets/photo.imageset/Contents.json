@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "127-1276180_photo-album-icon-png-icon-logo-png-album.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "127-1276180_photo-album-icon-png-icon-logo-png-album@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "127-1276180_photo-album-icon-png-icon-logo-png-album@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

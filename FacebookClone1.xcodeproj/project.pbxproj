@@ -16,6 +16,13 @@
 		1543148326C8CB0700223F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1543148126C8CB0700223F54 /* LaunchScreen.storyboard */; };
 		1543148E26C8CB0700223F54 /* FacebookClone1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1543148D26C8CB0700223F54 /* FacebookClone1Tests.swift */; };
 		1543149926C8CB0700223F54 /* FacebookClone1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1543149826C8CB0700223F54 /* FacebookClone1UITests.swift */; };
+		154314AA26C8DAC000223F54 /* RoomItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154314A926C8DAC000223F54 /* RoomItems.swift */; };
+		154314AC26C8DF9D00223F54 /* StoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154314AB26C8DF9D00223F54 /* StoryItem.swift */; };
+		154314AE26C8E45100223F54 /* PostItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154314AD26C8E45100223F54 /* PostItems.swift */; };
+		15D2CF2026C93B9F000624D4 /* IT-Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D2CF1F26C93B9F000624D4 /* IT-Park.swift */; };
+		15D9094826C90B8400ED2836 /* Create Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D9094726C90B8400ED2836 /* Create Room.swift */; };
+		15D9094A26C911E100ED2836 /* CreateStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D9094926C911E100ED2836 /* CreateStory.swift */; };
+		15D9094C26C9294500ED2836 /* ProfileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D9094B26C9294500ED2836 /* ProfileItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		1543149426C8CB0700223F54 /* FacebookClone1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookClone1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1543149826C8CB0700223F54 /* FacebookClone1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookClone1UITests.swift; sourceTree = "<group>"; };
 		1543149A26C8CB0700223F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154314A926C8DAC000223F54 /* RoomItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItems.swift; sourceTree = "<group>"; };
+		154314AB26C8DF9D00223F54 /* StoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItem.swift; sourceTree = "<group>"; };
+		154314AD26C8E45100223F54 /* PostItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItems.swift; sourceTree = "<group>"; };
+		15D2CF1F26C93B9F000624D4 /* IT-Park.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IT-Park.swift"; sourceTree = "<group>"; };
+		15D9094726C90B8400ED2836 /* Create Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create Room.swift"; sourceTree = "<group>"; };
+		15D9094926C911E100ED2836 /* CreateStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStory.swift; sourceTree = "<group>"; };
+		15D9094B26C9294500ED2836 /* ProfileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,7 @@
 		1543147226C8CB0300223F54 /* FacebookClone1 */ = {
 			isa = PBXGroup;
 			children = (
+				154314A626C8DA9300223F54 /* cells */,
 				1543147326C8CB0300223F54 /* AppDelegate.swift */,
 				1543147526C8CB0300223F54 /* SceneDelegate.swift */,
 				1543147726C8CB0300223F54 /* ContentView.swift */,
@@ -137,6 +152,20 @@
 				1543149A26C8CB0700223F54 /* Info.plist */,
 			);
 			path = FacebookClone1UITests;
+			sourceTree = "<group>";
+		};
+		154314A626C8DA9300223F54 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				154314A926C8DAC000223F54 /* RoomItems.swift */,
+				154314AB26C8DF9D00223F54 /* StoryItem.swift */,
+				154314AD26C8E45100223F54 /* PostItems.swift */,
+				15D9094726C90B8400ED2836 /* Create Room.swift */,
+				15D9094926C911E100ED2836 /* CreateStory.swift */,
+				15D9094B26C9294500ED2836 /* ProfileItem.swift */,
+				15D2CF1F26C93B9F000624D4 /* IT-Park.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +298,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154314AC26C8DF9D00223F54 /* StoryItem.swift in Sources */,
 				1543147426C8CB0300223F54 /* AppDelegate.swift in Sources */,
+				154314AE26C8E45100223F54 /* PostItems.swift in Sources */,
 				1543147626C8CB0300223F54 /* SceneDelegate.swift in Sources */,
+				15D9094C26C9294500ED2836 /* ProfileItem.swift in Sources */,
+				15D9094A26C911E100ED2836 /* CreateStory.swift in Sources */,
+				15D2CF2026C93B9F000624D4 /* IT-Park.swift in Sources */,
+				154314AA26C8DAC000223F54 /* RoomItems.swift in Sources */,
+				15D9094826C90B8400ED2836 /* Create Room.swift in Sources */,
 				1543147826C8CB0300223F54 /* ContentView.swift in Sources */,
 				1543147B26C8CB0300223F54 /* FacebookClone1.xcdatamodeld in Sources */,
 			);
