@@ -21,6 +21,10 @@ struct ContentView: View {
                     Image("profile").resizable().frame(width: 60, height: 60)
                         .cornerRadius(30)
                         Text("What's on your mind?").font(.system(size: 17))
+                            .frame(height:40).frame(maxWidth: .infinity)
+                            .offset(x: -65, y: 0)
+                            .overlay(RoundedRectangle(cornerRadius: 45).stroke(Color.gray.opacity(0.5), lineWidth: 1))
+
                     }.frame(height: 90)
                     .frame(maxWidth: .infinity, alignment: .topLeading)
                     .padding(.leading, 10).padding(.trailing, 10)
